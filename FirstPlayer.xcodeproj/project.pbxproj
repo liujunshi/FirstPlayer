@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9CF14C195AA61D00BD29AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF14B195AA61D00BD29AF /* Foundation.framework */; };
+		FF9CF14E195AA61D00BD29AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF14D195AA61D00BD29AF /* CoreGraphics.framework */; };
+		FF9CF150195AA61D00BD29AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF14F195AA61D00BD29AF /* UIKit.framework */; };
+		FF9CF156195AA61D00BD29AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9CF154195AA61D00BD29AF /* InfoPlist.strings */; };
+		FF9CF158195AA61D00BD29AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CF157195AA61D00BD29AF /* main.m */; };
+		FF9CF15C195AA61D00BD29AF /* FirstPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CF15B195AA61D00BD29AF /* FirstPlayerAppDelegate.m */; };
+		FF9CF15F195AA61D00BD29AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9CF15D195AA61D00BD29AF /* Main.storyboard */; };
+		FF9CF162195AA61D00BD29AF /* FirstPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CF161195AA61D00BD29AF /* FirstPlayerViewController.m */; };
+		FF9CF164195AA61D00BD29AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9CF163195AA61D00BD29AF /* Images.xcassets */; };
+		FF9CF16B195AA61D00BD29AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF16A195AA61D00BD29AF /* XCTest.framework */; };
+		FF9CF16C195AA61D00BD29AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF14B195AA61D00BD29AF /* Foundation.framework */; };
+		FF9CF16D195AA61D00BD29AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF14F195AA61D00BD29AF /* UIKit.framework */; };
+		FF9CF175195AA61D00BD29AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9CF173195AA61D00BD29AF /* InfoPlist.strings */; };
+		FF9CF177195AA61D00BD29AF /* FirstPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9CF176195AA61D00BD29AF /* FirstPlayerTests.m */; };
+		FF9CF181195AA66E00BD29AF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9CF180195AA66E00BD29AF /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF9CF16E195AA61D00BD29AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9CF140195AA61C00BD29AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9CF147195AA61D00BD29AF;
+			remoteInfo = FirstPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF9CF148195AA61D00BD29AF /* FirstPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9CF14B195AA61D00BD29AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF9CF14D195AA61D00BD29AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF9CF14F195AA61D00BD29AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF9CF153195AA61D00BD29AF /* FirstPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstPlayer-Info.plist"; sourceTree = "<group>"; };
+		FF9CF155195AA61D00BD29AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9CF157195AA61D00BD29AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9CF159195AA61D00BD29AF /* FirstPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		FF9CF15A195AA61D00BD29AF /* FirstPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPlayerAppDelegate.h; sourceTree = "<group>"; };
+		FF9CF15B195AA61D00BD29AF /* FirstPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPlayerAppDelegate.m; sourceTree = "<group>"; };
+		FF9CF15E195AA61D00BD29AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9CF160195AA61D00BD29AF /* FirstPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstPlayerViewController.h; sourceTree = "<group>"; };
+		FF9CF161195AA61D00BD29AF /* FirstPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPlayerViewController.m; sourceTree = "<group>"; };
+		FF9CF163195AA61D00BD29AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF9CF169195AA61D00BD29AF /* FirstPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9CF16A195AA61D00BD29AF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FF9CF172195AA61D00BD29AF /* FirstPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		FF9CF174195AA61D00BD29AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9CF176195AA61D00BD29AF /* FirstPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstPlayerTests.m; sourceTree = "<group>"; };
+		FF9CF180195AA66E00BD29AF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9CF145195AA61D00BD29AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9CF181195AA66E00BD29AF /* MediaPlayer.framework in Frameworks */,
+				FF9CF14E195AA61D00BD29AF /* CoreGraphics.framework in Frameworks */,
+				FF9CF150195AA61D00BD29AF /* UIKit.framework in Frameworks */,
+				FF9CF14C195AA61D00BD29AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9CF166195AA61D00BD29AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9CF16B195AA61D00BD29AF /* XCTest.framework in Frameworks */,
+				FF9CF16D195AA61D00BD29AF /* UIKit.framework in Frameworks */,
+				FF9CF16C195AA61D00BD29AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9CF13F195AA61C00BD29AF = {
+			isa = PBXGroup;
+			children = (
+				FF9CF151195AA61D00BD29AF /* FirstPlayer */,
+				FF9CF170195AA61D00BD29AF /* FirstPlayerTests */,
+				FF9CF14A195AA61D00BD29AF /* Frameworks */,
+				FF9CF149195AA61D00BD29AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9CF149195AA61D00BD29AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CF148195AA61D00BD29AF /* FirstPlayer.app */,
+				FF9CF169195AA61D00BD29AF /* FirstPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9CF14A195AA61D00BD29AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CF180195AA66E00BD29AF /* MediaPlayer.framework */,
+				FF9CF14B195AA61D00BD29AF /* Foundation.framework */,
+				FF9CF14D195AA61D00BD29AF /* CoreGraphics.framework */,
+				FF9CF14F195AA61D00BD29AF /* UIKit.framework */,
+				FF9CF16A195AA61D00BD29AF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9CF151195AA61D00BD29AF /* FirstPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CF15A195AA61D00BD29AF /* FirstPlayerAppDelegate.h */,
+				FF9CF15B195AA61D00BD29AF /* FirstPlayerAppDelegate.m */,
+				FF9CF15D195AA61D00BD29AF /* Main.storyboard */,
+				FF9CF160195AA61D00BD29AF /* FirstPlayerViewController.h */,
+				FF9CF161195AA61D00BD29AF /* FirstPlayerViewController.m */,
+				FF9CF163195AA61D00BD29AF /* Images.xcassets */,
+				FF9CF152195AA61D00BD29AF /* Supporting Files */,
+			);
+			path = FirstPlayer;
+			sourceTree = "<group>";
+		};
+		FF9CF152195AA61D00BD29AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CF153195AA61D00BD29AF /* FirstPlayer-Info.plist */,
+				FF9CF154195AA61D00BD29AF /* InfoPlist.strings */,
+				FF9CF157195AA61D00BD29AF /* main.m */,
+				FF9CF159195AA61D00BD29AF /* FirstPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9CF170195AA61D00BD29AF /* FirstPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CF176195AA61D00BD29AF /* FirstPlayerTests.m */,
+				FF9CF171195AA61D00BD29AF /* Supporting Files */,
+			);
+			path = FirstPlayerTests;
+			sourceTree = "<group>";
+		};
+		FF9CF171195AA61D00BD29AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CF172195AA61D00BD29AF /* FirstPlayerTests-Info.plist */,
+				FF9CF173195AA61D00BD29AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9CF147195AA61D00BD29AF /* FirstPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9CF17A195AA61D00BD29AF /* Build configuration list for PBXNativeTarget "FirstPlayer" */;
+			buildPhases = (
+				FF9CF144195AA61D00BD29AF /* Sources */,
+				FF9CF145195AA61D00BD29AF /* Frameworks */,
+				FF9CF146195AA61D00BD29AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstPlayer;
+			productName = FirstPlayer;
+			productReference = FF9CF148195AA61D00BD29AF /* FirstPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9CF168195AA61D00BD29AF /* FirstPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9CF17D195AA61D00BD29AF /* Build configuration list for PBXNativeTarget "FirstPlayerTests" */;
+			buildPhases = (
+				FF9CF165195AA61D00BD29AF /* Sources */,
+				FF9CF166195AA61D00BD29AF /* Frameworks */,
+				FF9CF167195AA61D00BD29AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9CF16F195AA61D00BD29AF /* PBXTargetDependency */,
+			);
+			name = FirstPlayerTests;
+			productName = FirstPlayerTests;
+			productReference = FF9CF169195AA61D00BD29AF /* FirstPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9CF140195AA61C00BD29AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FirstPlayer;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liujs;
+				TargetAttributes = {
+					FF9CF168195AA61D00BD29AF = {
+						TestTargetID = FF9CF147195AA61D00BD29AF;
+					};
+				};
+			};
+			buildConfigurationList = FF9CF143195AA61C00BD29AF /* Build configuration list for PBXProject "FirstPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9CF13F195AA61C00BD29AF;
+			productRefGroup = FF9CF149195AA61D00BD29AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9CF147195AA61D00BD29AF /* FirstPlayer */,
+				FF9CF168195AA61D00BD29AF /* FirstPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9CF146195AA61D00BD29AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9CF164195AA61D00BD29AF /* Images.xcassets in Resources */,
+				FF9CF156195AA61D00BD29AF /* InfoPlist.strings in Resources */,
+				FF9CF15F195AA61D00BD29AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9CF167195AA61D00BD29AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9CF175195AA61D00BD29AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9CF144195AA61D00BD29AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9CF15C195AA61D00BD29AF /* FirstPlayerAppDelegate.m in Sources */,
+				FF9CF162195AA61D00BD29AF /* FirstPlayerViewController.m in Sources */,
+				FF9CF158195AA61D00BD29AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9CF165195AA61D00BD29AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9CF177195AA61D00BD29AF /* FirstPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF9CF16F195AA61D00BD29AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9CF147195AA61D00BD29AF /* FirstPlayer */;
+			targetProxy = FF9CF16E195AA61D00BD29AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF9CF154195AA61D00BD29AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9CF155195AA61D00BD29AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF9CF15D195AA61D00BD29AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9CF15E195AA61D00BD29AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9CF173195AA61D00BD29AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9CF174195AA61D00BD29AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9CF178195AA61D00BD29AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9CF179195AA61D00BD29AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9CF17B195AA61D00BD29AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstPlayer/FirstPlayer-Prefix.pch";
+				INFOPLIST_FILE = "FirstPlayer/FirstPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF9CF17C195AA61D00BD29AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstPlayer/FirstPlayer-Prefix.pch";
+				INFOPLIST_FILE = "FirstPlayer/FirstPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FF9CF17E195AA61D00BD29AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstPlayer.app/FirstPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstPlayer/FirstPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FirstPlayerTests/FirstPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FF9CF17F195AA61D00BD29AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FirstPlayer.app/FirstPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstPlayer/FirstPlayer-Prefix.pch";
+				INFOPLIST_FILE = "FirstPlayerTests/FirstPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9CF143195AA61C00BD29AF /* Build configuration list for PBXProject "FirstPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9CF178195AA61D00BD29AF /* Debug */,
+				FF9CF179195AA61D00BD29AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9CF17A195AA61D00BD29AF /* Build configuration list for PBXNativeTarget "FirstPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9CF17B195AA61D00BD29AF /* Debug */,
+				FF9CF17C195AA61D00BD29AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF9CF17D195AA61D00BD29AF /* Build configuration list for PBXNativeTarget "FirstPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9CF17E195AA61D00BD29AF /* Debug */,
+				FF9CF17F195AA61D00BD29AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9CF140195AA61C00BD29AF /* Project object */;
+}
